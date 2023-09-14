@@ -1,0 +1,10 @@
+def cuenta(s):
+  cnt=1
+  for x in s:
+    if(x==' '):
+      cnt+=1
+  return cnt
+
+print("Writte a letter to your ex")
+s=input()
+print("There are "+str(cuenta(s))+" words in your letter")
